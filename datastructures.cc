@@ -16,11 +16,6 @@ template <typename Type> Type random_in_range(Type start, Type end) {
   return static_cast<Type>(start + num);
 }
 
-// Modify the code below to implement the functionality of the class.
-// Also remove comments from the parameter names when you implement
-// an operation (Commenting out parameter name prevents compiler from
-// warning about unused parameters on operations you haven't yet implemented.)
-
 Datastructures::Datastructures() {
   // Write any initialization you need here
 }
@@ -385,8 +380,6 @@ RegionID Datastructures::common_ancestor_of_regions(RegionID /*id1*/,
   // Replace the line below with your implementation
   throw NotImplemented("common_ancestor_of_regions()");
 }
-
-// prg2 functions below
 
 bool Datastructures::add_train(
     TrainID trainid, std::vector<std::pair<StationID, Time>> stationtimes) {
